@@ -67,9 +67,15 @@ public class Employee {
     }
 
     public String employeeInfo(){
-         String employeeInfo="Personelin adı / soyadı: " + name + surname + "\n" +
+         String employeeInfo="Personelin adı soyadı: " + name + surname + "\n" +
                             "e-mail: " + email + "\nçalıştığı pozisyon: " + title;
         return employeeInfo;
     }
+
+    /*public String toString(){
+        return "Personelin adı soyadı: " + name + surname + "\n" +
+                "e-mail: " + email + "\nçalıştığı pozisyon: " + title;
+
+    }*/
 
 }
